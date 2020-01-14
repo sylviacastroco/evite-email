@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  width: 650px;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #dae4ea;
+}
+
+.logo {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  background: #dae4ea;
+}
+
+.invitations {
+  margin-top: -5px;
+}
+
+h1 {
+  color: #2e3238;
+  margin-top: 0.5em;
+}
+
+.celebrate {
+  font-size: 22px;
+  color: #464b4f;
+  margin: 0.5em 3.5em 1em 3.5em;
+}
+
+.come {
+  background: #27a942;
+  border: none;
+  border-radius: 30px;
+  width: 250px;
+  padding: 15px;
+  color: white;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 6em;
+}
+
+.ad {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+.grey {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 2.875em 1.5em 2.875em 1.5em;
+  background: #f7f7f7;
+}
+
+.invitation p {
+  color: #6f7378;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 1em 1.5em 0 1.5em;
+  letter-spacing: 1px;
+}
+
+.invite {
+  display: block;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2em;
+  grid-gap: 20px;
+}
+
+.list img {
+  height: 75%;
+  margin: auto;
+}
+
+ul,
+li {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6f7378;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+li:first-child {
+  color: #b5b5b5;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.footlogo {
+  height: 50px;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 200px;
+  margin: 20px auto;
+}
+
+.social img {
+  width: 20px;
+}
+
+.play {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.play img {
+  width: 100px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #6f7378;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+}
+
+.footer-list p {
+  padding-left: 20px;
+  display: flex;
+  margin: 20px 0px;
+}
+
+.copyright {
+  color: grey;
+  font-size: 10px;
+}
+
+.copyright p {
+  margin-top: 20px;
+}
+
+.email {
+  color: #27a942;
+}
